@@ -133,7 +133,7 @@ module.exports = {
 		// Steam. If OpenDota doesn't know the user MMR, ScheduleBot won't either, and will display
 		// a "MMR Unknown message"
 		mmr: {
-			enabled: true,
+			enabled: false,
 
 			// If enforce is true, the bot will only allow people who have their MMR publicly
 			// exposed in OpenDota to confirm any events. This is useful for competitive leagues
